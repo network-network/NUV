@@ -32,7 +32,7 @@ so on.
 
 - After the source code is added to Eclipse IDE, users can compile, build and run our program. <br>
 
-- Note that, our main function is in the DriverDiff.java. Usrs should click the file to open the 'edit configuration' dialog.  And then put the 'argument' with '-configs <CONFIGS-DIR> -configs2  <CONFIGS-DIR2>'. <br>
+- Note that, our main function is in the DriverDiff.java. Usrs should click the file to open the 'edit configuration' dialog.  And then put the 'argument' with '-configs CONFIGS-DIR  -configs2 CONFIGS-DIR2'. <br>
 CONFIGS-DIR is the path to a directory containing the orignal configuration files for all devices in the network, and CONFIGS-DIR2 is the path to a directory containing the update configuration files for all devices in the network.<br>
 - After the program stop running, the outputs on the consle window include the impacted queries that should be verifed due to configuration update. Then users can download the state-of-the–art tool Minesweeper to verify these queries. 
 
