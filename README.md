@@ -34,7 +34,7 @@ so on.
 
 - Note that, our main function is in the DriverDiff.java. Usrs should click the file to open the 'edit configuration' dialog.  And then put the 'argument' with '-configs CONFIGS-DIR  -configs2 CONFIGS-DIR2'. <br>
 CONFIGS-DIR is the path to a directory containing the orignal configuration files for all devices in the network, and CONFIGS-DIR2 is the path to a directory containing the update configuration files for all devices in the network.<br>
-- After the program stop running, the outputs on the consle window include the impacted queries that should be verifed due to configuration update. Then users can download the state-of-the–art tool Minesweeper to verify these queries. 
+- After the program stops running, the consle window  outputs the impacted queries that should be verifed due to configuration update. Then users can download the state-of-the–art tool Minesweeper to verify these queries. 
 
 Users can  also download the Verf_lib and Verf.jar to try exmpale configurations. <br>
 The introduction of example configurtion updates (e.g., CAMPUS) is coming. 
