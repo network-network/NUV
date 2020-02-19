@@ -19,13 +19,28 @@ NUV is intermediate tool between the user who wants to verify the network behavi
 
 === Basic Usage ====
 
+- Create a directory containing a snapshot of the configurations from all routers in the network whose control plane you want to analyze. Example configurations for toy networks are included in the directory of Fullmesh-exmaples.zip, Fattree-exmaples.zip, Ring-exmaples.zip, CAMPUS1.zip and CAMPUS2.zip. The languages of input configurations can be defined by multiple vendors like Juniper, Arista, Cisco and
+so on.
+
+- The source code is in the nuv directory. User can download the souce code and import the code to Eclipse IDE. 
+-- Launch Eclipse IDE and select 'Import' from 'File' menu.
+-- In the displayed 'Import' dialog, expand the 'General' folder. Select 'Existing' Projects into Workspace' and click 'Next'.
+-- This will display the 'Import Projects' dialog box. Choose 'select archive file' option and click 'Browse'.
+-- Navigate to the folder of the exported file. Select the file and click 'Open'.
+-- In the 'Import Projects' dialog, ensure that browsed path is displayed. Click 'Finish'.
+-- Ensure that the imported project is displayed in the Eclipse IDE.
+
+- We also leverage the Batfish parser to translate the configurations into vendor-agnostic reprenstation. Usrs can download the souce code via the website (http://www.batfish.org).
+
+-After the source code is added to Eclipse IDE, users can compile, build and run our program.
+
+-Note that, our main function is in the DriverDiff.java. Usrs should click the file to open the 'edit configuration' dialog.  And then put the 'argument' with '-configs <CONFIGS-DIR> -configs2  <CONFIGS-DIR2>'.
+CONFIGS-DIR is the path to a directory containing the orignal configuration files for all devices in the network, and CONFIGS-DIR2 is the path to a directory containing the update configuration files for all devices in the network.
 
 
-Users can download the Verf_lib and Verf.jar to try exmpale configurations. 
+Users can  also download the Verf_lib and Verf.jar to try exmpale configurations. 
 
-One can also download the source code named nuv to build the project.
-
-Don't worry. The specification of example demo and the introduction about the steps is coming.
+The introduction of example configurtions update (e.g., CAMPUS) is coming.
 
 
 
