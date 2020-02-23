@@ -23,6 +23,9 @@ import edu.wisc.cs.arc.virl.Link;
  * An extended topology graph where vertices are devices and edges represent
  * physical connections.
  * @author Aaron Gember-Jacobson (agember@cs.wisc.edu)
+ * Add new functions (e.g., getDevice) for other classes.
+ * @author Yahui Li (li-yh15@mails.tsinghua.edu.cn)
+ */
  */
 public class DeviceGraph extends ExtendedTopologyGraph<DeviceVertex> {
 	private static final long serialVersionUID = -3018750171585312043L;
