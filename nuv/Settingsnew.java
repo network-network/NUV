@@ -9,9 +9,10 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- * Stores and parses settings for the ETG generator/verifier.
+ * Stores and parses settings.
  * New parameters are add for parser by yahuili. (e.g., configs2)
  */
+
 public class Settingsnew{
 	private final static String EXECUTABLE_NAME = "etggenerator";
 	
