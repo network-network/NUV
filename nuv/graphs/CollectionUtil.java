@@ -1,17 +1,16 @@
 package edu.wisc.cs.arc.graphs;
 
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
 
+
 /**
- * 该类提供对集合类的高效操作
- * @author Czp
- *
+ * Utils for other class.
  */
+
 
 public class CollectionUtil {
 
