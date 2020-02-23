@@ -82,6 +82,10 @@ import edu.wisc.cs.arc.repair.graph.ConfigModification.Substanza;
 /**
  * Compares the configurations of two devices.
  * @author Aaron Gember-Jacobson (agemberjacobson@colgate.edu)
+ * Compare more kinds of configuration blocks.
+ * Add detailed comparation for configuration blocks.
+ * Support the inference in NUV.
+ * @author Yahui Li (li-yh15@mails.tsinghua.edu.cn)
  */
 public class ConfigComparer {
     
