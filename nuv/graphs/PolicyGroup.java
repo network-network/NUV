@@ -38,6 +38,9 @@ import edu.wisc.cs.arc.configs.Config;
  * 
  * @author Raajay Viswanathan
  * @author Aaron Gember-Jacobson
+ *
+ * Add new functions (e.g., getPlolicyIface) for other classes.
+ * @author Yahui Li li-yh15@mails.tsinghua.edu.cn
  */
 public class PolicyGroup implements Comparable<PolicyGroup>, Serializable {
 	private static final long serialVersionUID = -1897130799118500967L;
