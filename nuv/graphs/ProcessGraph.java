@@ -25,7 +25,7 @@ import edu.wisc.cs.arc.virl.Link;
  * An extended topology graph where vertices are routing processes and edges
  * represent routing process adjacencies and route redistribution.
  * @author Aaron Gember-Jacobson (agember@cs.wisc.edu)
- *
+ * un-use in NUV.
  */
 public class ProcessGraph extends ExtendedTopologyGraph<ProcessVertex> {
 	private static final long serialVersionUID = -808081253375932844L;
