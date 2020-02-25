@@ -28,8 +28,8 @@ import edu.wisc.cs.arc.graphs.Interface.InterfaceType;
 /**
  * A device in a network.
  * @author Aaron Gember-Jacobson (agember@cs.wisc.edu)
- * Store intformation for the device with the configurtaion parsed.
- * Add new functions because of abstraction configs in the reduction of the NUV.
+ * Store information for the device with the configuration parsed.
+ * Add new functions because of abstraction configurations in the reduction of the NUV.
  * @author Yahui Li (li-yh15@mails.tsinghua.edu.cn)
  */
 public class Device implements Serializable {
