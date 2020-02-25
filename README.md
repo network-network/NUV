@@ -5,8 +5,8 @@ NUV can address the lack of knowledge problem and it is able to infer the impact
 NUV is intermediate tool between the user who wants to verify the network behavior and existing control plane verification tools. The tool alone does not focus on verifying reachability or any other network property. <br>
  
 === Inputs and outputs === <br>
--The inputs of NUV are the network configuration files and the updated network configuration files. <br>
--The outputs of NUV are the impacted queries for the verification tools. <br>
+- The inputs of NUV are the network configuration files and the updated network configuration files. <br>
+- The outputs of NUV are the impacted queries for the verification tools. <br>
 
 === PREREQUISITES ===
 - ant
