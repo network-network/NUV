@@ -28,7 +28,7 @@ so on.
    In the 'Import Projects' dialog, ensure that browsed path is displayed. Click 'Finish'. <br>
    Ensure that the imported project is displayed in the Eclipse IDE. <br>
 
-- We also leverage the Batfish parser to translate the configurations into vendor-agnostic reprenstation. Usrs should download the souce code via the website (http://www.batfish.org). <br>
+- We also leverage the parser in Batfish and ARC to translate the configurations into vendor-agnostic reprenstation. Usrs should download the souce code. <br>
 
 - After the source code is added to Eclipse IDE, users can compile, build and run our program. <br>
 
@@ -38,15 +38,15 @@ CONFIGS-DIR is the path to a directory containing the orignal configuration file
 
 
 === Introduction of the Codes ==== 
-DriverDiff class: Starts the NUV.  <br>
-FlowComp clsss: Includes a wide range of functions for inference and reduction in NUV.  <br>
-comAbs class: Computes equivalent network for the original network to support the reduction in NUV.  <br>
-ConfigComparer class:  Compares a wind range of configuration blocks of two devices to support the inference in NUV. <br>
-Device class: Saves information for the device with the configuration parsed. New functions to support abstraction configs in the reduction of the NUV.  <br>
-DeviceGraph class: Saves information for devices and edges represent physical connections.  New functions (e.g., getDevice) for other classes.  <br>
-PolicyGroup class: Stores policie including IP prefix, port range, and transport protocol. New functions (e.g., getPlolicyIface) for other classes.  <br>
-CollectionUtil class: Utils for other classes.   <br>
-Settingsnew calss: Stores and parses settings (e.g., -configs2).  <br>
+- DriverDiff class: Starts the NUV.  <br>
+- FlowComp clsss: Includes a wide range of functions for inference and reduction in NUV.  <br>
+- comAbs class: Computes equivalent network for the original network to support the reduction in NUV.  <br>
+- ConfigComparer class:  Compares a wind range of configuration blocks of two devices to support the inference in NUV. <br>
+- Device class: Saves information for the device with the configuration parsed. New functions to support abstraction configs in the reduction of the NUV.  <br>
+- DeviceGraph class: Saves information for devices and edges represent physical connections.  New functions (e.g., getDevice) for other classes.  <br>
+- PolicyGroup class: Stores policie including IP prefix, port range, and transport protocol. New functions (e.g., getPlolicyIface) for other classes.  <br>
+- CollectionUtil class: Utils for other classes.   <br>
+- Settingsnew calss: Stores and parses settings (e.g., -configs2).  <br>
 
 
 
