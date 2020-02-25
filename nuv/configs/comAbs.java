@@ -62,8 +62,8 @@ import org.batfish.vendor.VendorConfiguration;
 import org.junit.rules.TemporaryFolder;
 
 /**
- * Compute equilent network for the original network.
- * Suppot the reduction in NUV.
+ * Compute equivalent network for the original network.
+ * support the reduction in NUV.
  * @author Yahui Li (li-yh15@mails.tsinghua.edu.cn) 
  */
 public class comAbs {
