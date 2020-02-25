@@ -36,6 +36,20 @@ so on.
 CONFIGS-DIR is the path to a directory containing the orignal configuration files for all devices in the network, and CONFIGS-DIR2 is the path to a directory containing the update configuration files for all devices in the network.<br>
 - After the program stops running, the consle window  outputs the impacted queries that should be verifed due to configuration update. Then users can download the state-of-the–art tool Minesweeper to verify these queries. 
 
+
+=== Introduction of the Codes ==== 
+DriverDiff class: Starts the NUV.  <br>
+FlowComp clsss: Includes a wide range of functions for inference and reduction in NUV.  <br>
+comAbs class: Computes equivalent network for the original network to support the reduction in NUV.  <br>
+ConfigComparer class:  Compares a wind range of configuration blocks of two devices to support the inference in NUV. <br>
+Device class: Saves information for the device with the configuration parsed. New functions to support abstraction configs in the reduction of the NUV.  <br>
+DeviceGraph class: Saves information for devices and edges represent physical connections.  New functions (e.g., getDevice) for other classes.  <br>
+PolicyGroup class: Stores policie including IP prefix, port range, and transport protocol. New functions (e.g., getPlolicyIface) for other classes.  <br>
+CollectionUtil class: Utils for other classes.   <br>
+Settingsnew calss: Stores and parses settings (e.g., -configs2).  <br>
+
+
+
 Users can  also download the Verf_lib and Verf.jar to try exmpale configurations. <br>
 The introduction of example configurtion updates (e.g., CAMPUS) is coming. 
 
