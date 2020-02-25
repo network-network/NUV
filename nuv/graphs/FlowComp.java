@@ -52,6 +52,12 @@ import edu.wisc.cs.arc.graphs.Interface;
 
 import java.util.Map.Entry;
 
+
+/**
+ *Includes a wide range of functions for inference and reduction in NUV.
+ *@author Yahui Li li-yh15@mails.tsinghua.edu.cn
+ */
+
 public class FlowComp {
 
 	public List<Flow> comFlowsHeader(Settings settings, HeaderSpace h, List<PolicyGroup> policyGroups2) {
